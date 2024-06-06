@@ -8,9 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-       
-      },
+      colors: {
+        text: 'var(--color-text)',
+        error: 'var(--color-error)',
+        paper: 'var(--color-paper)',
+        primary: 'var(--color-primary)',
+        bacground: 'var(--color-background)',
+        contrast: 'var(--color-primary-contrast)',
+      }
     },
   },
   plugins: [],
