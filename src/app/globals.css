@@ -16,3 +16,7 @@ html,
 body{
     @apply bg-bacground text-text w-screen h-screen;
 }
+
+a{
+    @apply hover:underline underline-offset-4 active:opacity-50 transition-opacity
+}
